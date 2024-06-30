@@ -1,0 +1,32 @@
+{
+  "name": "worko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "mocha": {
+    "require": "esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.5.1",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "chai-http": "^5.0.0"
+  }
+}
